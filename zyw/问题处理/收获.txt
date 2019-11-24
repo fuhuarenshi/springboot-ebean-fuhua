@@ -1,0 +1,15 @@
+1.因为不擅长前端  所以采取前后端分离  页面用swagger2.ui 去显示
+
+http://localhost:8093/swagger-ui.html
+另外也可以用postman去测试
+
+2.学习了一波ebean   基本大致是查询网上资料  结合demo 先跑起来 然后按照自己的需求去整改
+
+3.框架大体是借助模仿
+https://macrozheng.github.io/mall-learning/#/README
+mall大体框架
+以及对应https://gitee.com/YiBuYiBuSiZhaoYa/easy_ebean的参考
+
+4.也算是自己按照springboot的基础模板去整合了东西
+
+

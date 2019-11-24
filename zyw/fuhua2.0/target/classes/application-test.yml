@@ -1,0 +1,23 @@
+# 数据源配置
+spring:
+    redis:
+      host: localhost
+      port: 6379
+      password: 12345678
+      database: 2
+      timeout: 300
+      # redis 过期时间，单位秒，默认24小时
+      expire: 3600
+      jedis:
+       pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-wait: -1ms
+    datasource:
+       url: jdbc:mysql://127.0.0.1:3306/fuhua?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+       username: root
+       password: 8023123
+ #上面应该是我对应引入mysql或者其他一些东西 需要读取配置 要用到的 这个跟ebean.properties 内容的数据库同步即可
+
